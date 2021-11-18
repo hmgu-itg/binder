@@ -1,13 +1,9 @@
-name: example-environment
+name: binder
 channels:
+  - defaults
+  - bioconda
   - conda-forge
 dependencies:
-  - numpy
-  - psutil
-  - toolz
-  - matplotlib
-  - dill
-  - pandas
-  - partd
-  - bokeh
-  - dask
+  - plink
+  - plink2
+  - r-irkernel
